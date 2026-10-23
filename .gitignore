@@ -1,0 +1,20 @@
+node_modules/
+dist/
+
+# Android 构建产物与本地配置（不入库）
+android/app/build/
+android/build/
+android/capacitor-cordova-android-plugins/build/
+android/.gradle/
+android/local.properties
+*.keystore
+*.jks
+
+# 系统与临时文件
+*.local
+.DS_Store
+
+# 构建产物与调试截图（不入库）
+*.apk
+作文工坊-离线版.zip
+mumu-*.png
